@@ -1,7 +1,7 @@
 {
-  "name": "hypercore-fetch",
-  "version": "6.0.1",
-  "description": "Implementation of Fetch that uses the Dat SDK for loading p2p content",
+  "name": "@ddatabase/fetch",
+  "version": "1.0.0",
+  "description": "Implementation of Fetch that uses the dWeb SDK for loading P2P content",
   "bin": "bin.js",
   "main": "index.js",
   "scripts": {
@@ -9,26 +9,27 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/RangerMauve/hypercore-fetch.git"
+    "url": "https://github.com/dwebprotocol/ddatabase-fetch.git"
   },
   "keywords": [
-    "dat",
+    "dweb",
+    "ddatabase",
     "fetch"
   ],
-  "author": "RangerMauve",
+  "author": "PeepsLabs <peepslabs@gmail.com>",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/RangerMauve/hypercore-fetch/issues"
+    "url": "https://github.com/dwebprotocol/ddatabase-fetch/issues"
   },
-  "homepage": "https://github.com/RangerMauve/hypercore-fetch#readme",
+  "homepage": "https://dwebx.org",
   "dependencies": {
     "fetch-headers": "^2.0.0",
-    "hyper-sdk": "^3.0.3",
+    "dwebsdk": "^1.0.0",
     "make-dir": "^3.1.0",
     "make-fetch": "^2.2.1",
     "mime": "^2.4.4",
     "range-parser": "^1.2.1",
-    "resolve-dat-path": "^1.2.0",
+    "resolve-dweb-path": "^1.0.0",
     "sodium-universal": "^3.0.2",
     "streamx": "^2.10.0"
   },
