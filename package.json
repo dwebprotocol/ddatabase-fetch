@@ -24,7 +24,7 @@
   "homepage": "https://dwebx.org",
   "dependencies": {
     "fetch-headers": "^2.0.0",
-    "dwebsdk": "^1.0.0",
+    "dweb-sdk": "^1.0.0",
     "make-dir": "^3.1.0",
     "make-fetch": "^2.2.1",
     "mime": "^2.4.4",
